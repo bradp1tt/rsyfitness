@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "rsyfitness"
+  },
+  "hostingPlanName": {
+    "value": "cldprogapp"
+  },
+  "siteLocation": {
+    "value": "East Asia"
+  },
+  "sku": {
+    "value": "Standard"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "cldprogserver"
+  },
+  "serverLocation": {
+    "value": "East Asia"
+  },
+  "administratorLogin": {
+    "value": "jpamata"
+  },
+  "administratorLoginPassword": {
+    "value": "6inchFury"
+  },
+  "databaseName": {
+    "value": "rsyfitness_db"
+  }
+}

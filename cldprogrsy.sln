@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cldprogrsy", "cldprogrsy\cldprogrsy.csproj", "{91FE1FFF-B0B1-4486-8F10-D793B76414F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2D26E04F-5ABA-478D-A573-6AE458EC130D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5AE4AA05-8689-4AF4-94A4-0B058C2CF5E8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{17A3792C-4CEE-476D-AE58-052E6CFABEDF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\cldprogrsy.json = PublishScripts\Templates\cldprogrsy.json
+		PublishScripts\Templates\cldprogrsy.param.dev.json = PublishScripts\Templates\cldprogrsy.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91FE1FFF-B0B1-4486-8F10-D793B76414F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FE1FFF-B0B1-4486-8F10-D793B76414F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FE1FFF-B0B1-4486-8F10-D793B76414F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FE1FFF-B0B1-4486-8F10-D793B76414F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AE4AA05-8689-4AF4-94A4-0B058C2CF5E8} = {2D26E04F-5ABA-478D-A573-6AE458EC130D}
+		{17A3792C-4CEE-476D-AE58-052E6CFABEDF} = {2D26E04F-5ABA-478D-A573-6AE458EC130D}
+	EndGlobalSection
+EndGlobal
